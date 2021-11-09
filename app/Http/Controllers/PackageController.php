@@ -10,6 +10,5 @@ class PackageController extends Controller
     public function index()
     {
         dd(Package::all());
-        // dd("Hello World!");
     }
 }
